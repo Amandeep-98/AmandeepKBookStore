@@ -1,5 +1,3 @@
-# AmandeepKBookStore
-
 Name: Amandeep Kaur
 Student No: 0775616
 Assignment no: 2
@@ -143,6 +141,7 @@ BACK AGAIN 12:30PM
 
 After taking break of half an hour i'm back going to follow the next step with, Modifying the  Startup.cs service. 
 Then i ‘AddContext’ with the using statement.
+
 Now i'm going to Run the application and review errors.
 Oh No!!!!!! here comes the bucket of errors.
 After trying or reviwing the files again i build the project and now i succdeed.
@@ -196,17 +195,15 @@ Now, I'm going to Update the GitHub repo :)
 
 DONE WITH FIRST PART AT 4PM.
 
-
-
 Coming Thursday, Professor is going to give the second part slides of this Assignment.
+
 
 
 
 Here comes the day to start the secong part of assignment..........
 
 
-
-November-8-2021  3PM
+November-10-2021  9AM
 
 
 I started working on this assignment in afternoon because i have classes and some other work of college. I'm feeling tired but excited to start it.......
@@ -221,6 +218,18 @@ To prepare for the next part,I ‘build’ the application and confirm there are
 And Again i Review appsettings.json.
 
 So, I'm going to Create the migrations (using code-first, where changes are “pushed” to the database), modify the database name and save.
+
+
+
+(20211113004943_AddDefaultIdentityMigration)
+
+(20211113012857_AddCategoryToDb)
+
+
+MIGRATION files are created.........10-11-2021 AT 11:22 AM.
+
+
+
 
 I Used the NuGet Package Manager Console to add the migration.
 By mistake, I selected the wrong default project.
@@ -384,6 +393,6 @@ At November-13-2021 i did it mean i completed it and for now i have no energy to
 
 
 Till THEN BYE ;)
- 
+
 
 

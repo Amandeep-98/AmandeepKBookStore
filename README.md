@@ -426,3 +426,5 @@ Here i go Made a  edit and back to list button  and
 and in thr Upsert view file.
 this code to the view in the shared folder.......................
 11:27pm Made one change in the upsert.cshtmlbiu my added category is not working :(
+
+11:32pm i made another change in upsert.cshtml and will run it let's see it will build or not................:(

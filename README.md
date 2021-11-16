@@ -430,3 +430,8 @@ this code to the view in the shared folder.......................
 11:32pm i made another change in upsert.cshtml and will run it let's see it will build or not................:(
 
 11:47pm  Finalllllllllllly my project is running successfully..      ;)
+
+12:19 going to write other task i did
+12:00AM i added use HTTP POST to define the post-action method in the Categorycontroller.
+12:10AM I added 0 in the model if statement of upsert view.
+and give the connection to IUnitOfWork   ;)

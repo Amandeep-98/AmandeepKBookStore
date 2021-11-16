@@ -396,3 +396,14 @@ Till THEN BYE ;)
 
 
 
+
+
+HI............... its 10:22pm 
+
+I opend the slides and started working on it and i Modify the category with edit and view code.
+i build the project again and it run successfully......
+
+So, i'm going to start the next step... 
+
+
+

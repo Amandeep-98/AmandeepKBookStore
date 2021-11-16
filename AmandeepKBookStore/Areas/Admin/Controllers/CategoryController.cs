@@ -1,4 +1,5 @@
 ﻿using KaurBooks.DataAccess.Repository.IRepository;
+using KaurBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,23 @@ namespace AmandeepKBookStore.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public IActionResult Upsert(int? id)     // action method for upsert
+        {
+            Category category = new Category(); // using KaurBooks.Models;
+            if (id == null)
+            {
+                // this is for create
+                return View(category);
+            }
+            //this for the edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (id == null)
+            {
+                return NotFound();
+            }
             return View();
         }
 

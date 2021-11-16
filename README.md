@@ -422,4 +422,6 @@ Here i go Made a  edit and back to list button  and
 </div>
 
 
+11:11pm and i added some changes 11:08pm Added some code and make changes in the Index.cshtml 
+and in thr Upsert view file.
 this code to the view in the shared folder.......................

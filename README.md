@@ -404,6 +404,6 @@ I opend the slides and started working on it and i Modify the category with edit
 i build the project again and it run successfully......
 
 So, i'm going to start the next step... 
-
+I added upsert view under the Area < Category then upsert View.. at 10:29pm
 
 

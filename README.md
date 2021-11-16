@@ -408,3 +408,18 @@ I added upsert view under the Area < Category then upsert View.. at 10:29pm
 
 At 10:34 pm i added the _CreateAndBackToListButton in the Shared folder....
 At 10:40pm i added the _CreateAndBackToListButton file toShared folder....
+
+
+Here i go Made a  edit and back to list button  and 
+@model int
+<div class="row">
+    <div class="col">
+    <button type="submit" class="btn btn-primary form-control" asp-route-id="@Model">Update</button>
+</div>
+    <div class="col">
+        <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+    </div>
+</div>
+
+
+this code to the view in the shared folder.......................

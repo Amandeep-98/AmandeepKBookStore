@@ -445,3 +445,6 @@ to complete the assignment.
 
  i again created upset view because there was error in the output.
 i09:18pm i made change in upsert and category controller files..
+
+
+09:21pm i added code in Category.js file 

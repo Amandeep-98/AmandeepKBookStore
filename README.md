@@ -435,3 +435,12 @@ this code to the view in the shared folder.......................
 12:00AM i added use HTTP POST to define the post-action method in the Categorycontroller.
 12:10AM I added 0 in the model if statement of upsert view.
 and give the connection to IUnitOfWork   ;)
+
+
+November 18, 2021
+08:23pm
+Hi there, i'm back again after one day.........
+to complete the assignment.
+
+
+ i again created upset view because there was error in the output.

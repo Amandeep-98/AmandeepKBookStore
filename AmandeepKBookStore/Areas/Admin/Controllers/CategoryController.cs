@@ -65,17 +65,31 @@ namespace AmandeepKBookStore.Areas.Admin.Controllers
             return View(category);
         }
 
-        
-        // API Calls here
-        #region API CALLS
-        [HttpGet]
 
+        // API Calls here
+       
+        #region API CALLS
+
+
+
+        [HttpGet]
         public IActionResult GetAll()
         {
-            // return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-        #endregion 
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { sucess = false, message = "Error while deleting " });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { sucess = true, message = "Delete successful" });
+        }
+        #endregion
     }
 }

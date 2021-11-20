@@ -449,3 +449,13 @@ i09:18pm i made change in upsert and category controller files..
 
 09:21pm i added code in Category.js file 
 09:47PM there i made some changes in category and layout............
+
+November 19, 2021
+
+08:06pm i was very confused yesterday, As i run the program but wasn't getting the desired output so i stated watching frpm scrath to start kind and make changes in migration folder and again i updated my database.
+
+
+08:08PM i just added some code of js and othe unitofwork codes in the category controller.. i run the provgram for nows and i'm super happy to complete it asap.........
+
+
+;) ;)

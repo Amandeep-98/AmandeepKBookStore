@@ -465,3 +465,4 @@ Hi there! 12:08pm 21-11-2021
 i just woke up at 11:00am and did somw household chores and now at noon i'm here to complete the 3rd part of the assignment;)
 12:10pm i added covertype.cs file the model folder and Coverttperepository to the repository folder... and i run the program again to see is oit workind successfully or not but its working yehhh;)
 12:25pm I added the covertype to unitofwork and iunoitofwork.
+04:40Pm i make Icovertyperepository and covertyperepository in the mogrations folder....;)

@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using KaurBooks.Models;
 
 namespace KaurBooks.DataAccess.Migrations.Repository.IRepository
 {
-    public interface ICoverTypeRepository : IRepository<Models.CoverType>
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
-        void Update(Models.CoverType coverType);
+
+        void Update(CoverType covertype);
     }
 }

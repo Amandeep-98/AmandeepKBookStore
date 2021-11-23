@@ -474,3 +474,10 @@ feeling unwell from last few days so i'm back again to try and run the next part
  10:29pm i deleted the covertype and icovertype files even then progra…
 
 …m is but ot building successfully. :(
+
+23-11-2021
+
+
+01:09 PM Hi there!!  Not feeling that well, but still get back to work as i have to complete this part asap and i started again i made covertype and icovertype files in the migration folder again amnd now my program is running stuccessfully. 
+
+01:11Pm is the time to step ahead ;)

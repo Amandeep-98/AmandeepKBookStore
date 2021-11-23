@@ -482,3 +482,4 @@ feeling unwell from last few days so i'm back again to try and run the next part
 
 01:11Pm is the time to step ahead ;)
 01:29PM i add the migration and update my database and it build successfully yeah;)
+01:43pm Added CoverTypento Nav Bar

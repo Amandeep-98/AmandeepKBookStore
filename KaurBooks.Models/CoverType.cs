@@ -14,7 +14,7 @@ namespace KaurBooks.Models
 
         public int Id { get; set; }
 
-        [Display(Name = "CoverType Name")]
+        [Display(Name = "Cover Type List")]
         [Required]
         [MaxLength(50)]
 

@@ -67,27 +67,8 @@ namespace AmandeepKBookStore.Areas.Admin.Controllers
         }
 
 
-        #region API CALLS
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            var allObj = _unitOfWork.CoverType.GetAll();
-            return Json(new { data = allObj });
-        }
-        [HttpDelete]
-        public IActionResult Delete(int id)
-        {
-            var objFromDb = _unitOfWork.CoverType.Get(id);
-            if (objFromDb == null)
-            {
-                return Json(new { sucess = false, message = "Error while deleting " });
-            }
-            _unitOfWork.CoverType.Remove(objFromDb);
-            _unitOfWork.Save();
-            return Json(new { sucess = true, message = "Delete successful" });
-        }
-
-        #endregion
+    // API CALLS//
+       
     }
 
 }

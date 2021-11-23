@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using KaurBooks.DataAccess.Migrations.Repository.IRepository;
+using KaurBooks.DataAccess.Migrations.Repository;
 
 namespace KaurBooks.DataAccess.Repository
 {
@@ -17,14 +19,19 @@ namespace KaurBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
+
+
             SP_Call = new SP_Call(_db);
+            
+
         }
 
         public ICategoryRepository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 
-        object IUnitOfWork.CoverType => throw new NotImplementedException();
+        public ICoverTypeRepository CoverType  { get; private set; }
 
         public void Dispose()
         {
@@ -36,20 +43,5 @@ namespace KaurBooks.DataAccess.Repository
             _db.SaveChanges();
         }
 
-
-        class CoverType
-        {
-
-            [Key]
-
-            public int Id { get; set; }
-
-            [Display(Name = "Category Name")]
-            [Required]
-            [MaxLength(50)]
-
-            public string Name { get; set; }
-
-        }
     }
 }

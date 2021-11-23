@@ -4,14 +4,21 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
 <br />
 <div class="row">
     <div class="col-6">
-        <h2 class="text-primary">CoverType</h2>
+        <h2 class="text-primary">Cover Type List </h2>
     </div>
     <div class="col-6 text-right">
-        <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create New CoverType</a>
+        <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create New Cover Type</a>
     </div>
 </div>
 
@@ -27,7 +34,7 @@
     </table>
 </div>
 <div class="text-center">
-    <a hre="/Admin/CoverType/Upsert/id" class="btn btn-success text-white" style="cursor:pointer">
+    <a hre="/Admin/Category/Upsert/id" class="btn btn-success text-white" style="cursor:pointer">
         <i class="fas fa-highlighter"></i>&nbsp;
     </a>
     <a class="btn btn-danger text-white" style="cursor:pointer">
@@ -40,3 +47,4 @@
 
     <script src="~/js/category.js"></script>
 }
+

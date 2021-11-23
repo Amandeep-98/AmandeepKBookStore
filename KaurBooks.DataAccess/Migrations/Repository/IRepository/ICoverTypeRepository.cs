@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using KaurBooks.DataAccess.Repository.IRepository;
+using KaurBooks.Models;
 
 namespace KaurBooks.DataAccess.Migrations.Repository.IRepository
 {
-    interface ICoverTypeRepository
+    public  interface ICoverTypeRepository : IRepository<CoverType>
     {
+        void Update(CoverType coverType);
     }
 }

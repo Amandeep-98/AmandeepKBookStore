@@ -471,3 +471,6 @@ i just woke up at 11:00am and did somw household chores and now at noon i'm here
 feeling unwell from last few days so i'm back again to try and run the next part of the assignment and here we go i just added the models to icovertyperepository and covertype repository.
 
 10:04pm i started running the program but its not working........
+ 10:29pm i deleted the covertype and icovertype files even then progra…
+
+…m is but ot building successfully. :(

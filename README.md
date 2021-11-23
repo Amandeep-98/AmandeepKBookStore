@@ -484,3 +484,9 @@ feeling unwell from last few days so i'm back again to try and run the next part
 01:29PM i add the migration and update my database and it build successfully yeah;)
 01:43pm Added CoverType Nav Bar.
 02:34 pm i added covertype controller to the controller and index/upsert view to views/covertype and added some code to covertype.js file. and facing some errors here will take some time to resolve these.... it is not building successfully will make a other try and udate here asap. ;)
+ 04:30Pm i added new class named(product) in the .Models project.
+
+04:38pm I added yhe code given in the slide to the product class.
+04:45pm i attached the reference to the new product piece to the database in applicationToDb file.
+04:50Pm will going to update the data base and will share here the output;)
+05:14PM i added producttodb in the database but its not working :(

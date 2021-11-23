@@ -29,7 +29,6 @@ namespace KaurBooks.DataAccess.Repository.IRepository
         void Remove(T entity);
 
         void RemoveRange(IEnumerable<T> entity);
-
-
+        void Update(CoverType coverType);
     }
 }

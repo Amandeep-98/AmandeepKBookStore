@@ -8,8 +8,8 @@ using KaurBooks.Models;
 
 namespace KaurBooks.DataAccess.Migrations.Repository.IRepository
 {
-    public interface ICoverTypeRepository : IRepository<CoverType>
+    public interface ICoverTypeRepository : IRepository<Models.CoverType>
     {
-        void Update(CoverType coverType);
+        void Update(Models.CoverType coverType);
     }
 }

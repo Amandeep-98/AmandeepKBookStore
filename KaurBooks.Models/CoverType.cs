@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace KaurBooks.Models
 {
-    class CoverType
+    public class CoverType
     {
          
         [Key]
 
         public int Id { get; set; }
 
-        [Display(Name = "Category Name")]
+        [Display(Name = "CoverType Name")]
         [Required]
         [MaxLength(50)]
 

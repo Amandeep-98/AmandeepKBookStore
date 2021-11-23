@@ -482,4 +482,5 @@ feeling unwell from last few days so i'm back again to try and run the next part
 
 01:11Pm is the time to step ahead ;)
 01:29PM i add the migration and update my database and it build successfully yeah;)
-01:43pm Added CoverTypento Nav Bar
+01:43pm Added CoverType Nav Bar.
+02:34 pm i added covertype controller to the controller and index/upsert view to views/covertype and added some code to covertype.js file. and facing some errors here will take some time to resolve these.... it is not building successfully will make a other try and udate here asap. ;)

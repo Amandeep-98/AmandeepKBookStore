@@ -466,3 +466,8 @@ i just woke up at 11:00am and did somw household chores and now at noon i'm here
 12:10pm i added covertype.cs file the model folder and Coverttperepository to the repository folder... and i run the program again to see is oit workind successfully or not but its working yehhh;)
 12:25pm I added the covertype to unitofwork and iunoitofwork.
 04:40Pm i make Icovertyperepository and covertyperepository in the migrations folder....;)
+ 10:01 pm Hi there of 22-11-2021
+
+feeling unwell from last few days so i'm back again to try and run the next part of the assignment and here we go i just added the models to icovertyperepository and covertype repository.
+
+10:04pm i started running the program but its not working........

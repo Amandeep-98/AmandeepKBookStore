@@ -24,6 +24,8 @@ namespace KaurBooks.DataAccess.Repository
 
         public ISP_Call SP_Call { get; private set; }
 
+        object IUnitOfWork.CoverType => throw new NotImplementedException();
+
         public void Dispose()
         {
             _db.Dispose();

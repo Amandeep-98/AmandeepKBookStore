@@ -466,7 +466,9 @@ i just woke up at 11:00am and did somw household chores and now at noon i'm here
 12:10pm i added covertype.cs file the model folder and Coverttperepository to the repository folder... and i run the program again to see is oit workind successfully or not but its working yehhh;)
 12:25pm I added the covertype to unitofwork and iunoitofwork.
 04:40Pm i make Icovertyperepository and covertyperepository in the migrations folder....;)
- 10:01 pm Hi there of 22-11-2021
+ 
+
+10:01 pm Hi there of 22-11-2021
 
 feeling unwell from last few days so i'm back again to try and run the next part of the assignment and here we go i just added the models to icovertyperepository and covertype repository.
 
@@ -479,6 +481,10 @@ feeling unwell from last few days so i'm back again to try and run the next part
 
 
 01:09 PM Hi there!!  Not feeling that well, but still get back to work as i have to complete this part asap and i started again i made covertype and icovertype files in the migration folder again amnd now my program is running stuccessfully. 
+
+
+20211123181801 coverType db is craeted.....
+
 
 01:11Pm is the time to step ahead ;)
 01:29PM i add the migration and update my database and it build successfully yeah;)

@@ -491,3 +491,5 @@ feeling unwell from last few days so i'm back again to try and run the next part
 04:50Pm will going to update the data base and will share here the output;)
 05:14PM i added producttodb in the database but its not working :(
 05:22Pm I deleted again and buildoing again the productodb  in the console manager but its not working properly. as its not updateed in the tables. :(
+09:30 PM Made some changes in Areas/admin and in category controller.
+09:50PM again added product to db but its not updating oin the database even now  :(

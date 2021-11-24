@@ -490,3 +490,4 @@ feeling unwell from last few days so i'm back again to try and run the next part
 04:45pm i attached the reference to the new product piece to the database in applicationToDb file.
 04:50Pm will going to update the data base and will share here the output;)
 05:14PM i added producttodb in the database but its not working :(
+05:22Pm I deleted again and buildoing again the productodb  in the console manager but its not working properly. as its not updateed in the tables. :(

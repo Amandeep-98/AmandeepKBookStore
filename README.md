@@ -466,7 +466,9 @@ i just woke up at 11:00am and did somw household chores and now at noon i'm here
 12:10pm i added covertype.cs file the model folder and Coverttperepository to the repository folder... and i run the program again to see is oit workind successfully or not but its working yehhh;)
 12:25pm I added the covertype to unitofwork and iunoitofwork.
 04:40Pm i make Icovertyperepository and covertyperepository in the migrations folder....;)
- 10:01 pm Hi there of 22-11-2021
+ 
+
+10:01 pm Hi there of 22-11-2021
 
 feeling unwell from last few days so i'm back again to try and run the next part of the assignment and here we go i just added the models to icovertyperepository and covertype repository.
 
@@ -480,6 +482,10 @@ feeling unwell from last few days so i'm back again to try and run the next part
 
 01:09 PM Hi there!!  Not feeling that well, but still get back to work as i have to complete this part asap and i started again i made covertype and icovertype files in the migration folder again amnd now my program is running stuccessfully. 
 
+
+20211123181801 coverType db is craeted.....
+
+
 01:11Pm is the time to step ahead ;)
 01:29PM i add the migration and update my database and it build successfully yeah;)
 01:43pm Added CoverType Nav Bar.
@@ -491,3 +497,8 @@ feeling unwell from last few days so i'm back again to try and run the next part
 04:50Pm will going to update the data base and will share here the output;)
 05:14PM i added producttodb in the database but its not working :(
 05:22Pm I deleted again and buildoing again the productodb  in the console manager but its not working properly. as its not updateed in the tables. :(
+09:30 PM Made some changes in Areas/admin and in category controller.
+09:50PM again added product to db but its not updating oin the database even now  :(
+11:11Am 
+Hi there its 25-11-2021 and From last few days im not  feeling okay as im feeling sick and now im here again my database was not updating even i tried several times. 
+But i added producttodb before two days and i updated it in readme  but not on git so here im going to update today and let's go yeah;) 

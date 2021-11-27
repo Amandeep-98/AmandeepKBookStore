@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using KaurBooks.DataAccess.Migrations.Repository.IRepository;
+using KaurBooks.DataAccess.Migrations.Repository;
 
 namespace KaurBooks.DataAccess.Repository
 {
@@ -16,12 +19,19 @@ namespace KaurBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
+
+
             SP_Call = new SP_Call(_db);
+            
+
         }
 
         public ICategoryRepository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
+
+        public ICoverTypeRepository CoverType  { get; private set; }
 
         public void Dispose()
         {

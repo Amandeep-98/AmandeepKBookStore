@@ -1,4 +1,4 @@
-Name: Amandeep Kaur
+﻿Name: Amandeep Kaur
 Student No: 0775616
 Assignment no: 2
 
@@ -499,6 +499,3 @@ feeling unwell from last few days so i'm back again to try and run the next part
 05:22Pm I deleted again and buildoing again the productodb  in the console manager but its not working properly. as its not updateed in the tables. :(
 09:30 PM Made some changes in Areas/admin and in category controller.
 09:50PM again added product to db but its not updating oin the database even now  :(
-11:11Am 
-Hi there its 25-11-2021 and From last few days im not  feeling okay as im feeling sick and now im here again my database was not updating even i tried several times. 
-But i added producttodb before two days and i updated it in readme  but not on git so here im going to update today and let's go yeah;) 

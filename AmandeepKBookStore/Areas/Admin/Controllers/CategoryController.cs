@@ -25,7 +25,7 @@ namespace AmandeepKBookStore.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)     // action method for upsert
         {
             Category category = new Category(); // using KaurBooks.Models;
-            if (id == null)
+            if (id == 0)
             {
                 // this is for create
                 return View(category);
@@ -36,7 +36,7 @@ namespace AmandeepKBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
 
 
@@ -64,10 +64,11 @@ namespace AmandeepKBookStore.Areas.Admin.Controllers
             }
             return View(category);
         }
+ 
 
 
         // API Calls here
-       
+
         #region API CALLS
 
 

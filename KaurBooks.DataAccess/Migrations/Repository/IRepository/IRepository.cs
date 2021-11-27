@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KaurBooks.DataAccess.Repository.IRepository
 {
-    public interface IRepository<T> where T : class 
+    public interface IRepository<T> where T : class
     {
         T Get(int Id);
 

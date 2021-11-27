@@ -1,10 +1,9 @@
-﻿@model KaurBooks.Models.Category;
+﻿@model KaurBooks.Models.CoverType;
 
-@{             
+@{  
     ViewData["Title"] = "Upsert";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Category";
-    }
+    var title = "Create Category"; }
 
 <form method="post">
     <div class="row p-3 border">
@@ -12,7 +11,7 @@
         @if (Model.Id != 0)
         {
             //edit
-            title = "Edit Category";
+            title = "Edit CoverType";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">TITLE</h2>

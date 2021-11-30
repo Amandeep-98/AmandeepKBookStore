@@ -6,8 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-using KaurBooks.DataAccess.Migrations.Repository.IRepository;
-using KaurBooks.DataAccess.Migrations.Repository;
+using KaurBooks.Models;
 
 namespace KaurBooks.DataAccess.Repository
 {
@@ -15,11 +14,13 @@ namespace KaurBooks.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;   // the using statement 
 
+        public CategoryRepository Category { get; }
+
         public UnitOfWork(ApplicationDbContext db)   // constructor to use DI and inject in the repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
-            CoverType = new CoverTypeRepository(_db);
+            
 
 
             SP_Call = new SP_Call(_db);
@@ -27,11 +28,11 @@ namespace KaurBooks.DataAccess.Repository
 
         }
 
-        public ICategoryRepository Category { get; private set; }
+        
 
         public ISP_Call SP_Call { get; private set; }
 
-        public ICoverTypeRepository CoverType  { get; private set; }
+        ICategoryRepository IUnitOfWork.Category => throw new NotImplementedException();
 
         public void Dispose()
         {

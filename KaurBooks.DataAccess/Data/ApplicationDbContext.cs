@@ -15,11 +15,9 @@ namespace AmandeepKBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
-        
-<<<<<<< HEAD
+
+
         public DbSet<Product> Products { get; set; }          // adding products to DB
-=======
-     ///   public DbSet<Product> Products { get; set; }          // adding products to DB
->>>>>>> d4ee44d8d860d6acd668629e1be7d4fc91fe9837
+
     }
 }

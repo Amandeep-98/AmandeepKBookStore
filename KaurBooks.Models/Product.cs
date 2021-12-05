@@ -16,19 +16,23 @@ namespace KaurBooks.Models
         public string Description { get; set; }
         public string ISBN { get; set; }
         public string Author { get; set; }
+
         [Required]
         [Range(1, 10000)]
         public double ListPrice { get; set; }
         public string ImageUrl { get; set; }
 
         [Required]
-        public int CategoryId { get; set; }    // foriegn key reference
+        public int CategoryId { get; set; }   //foreign key refrance
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
 
         [Required]
-        public int CoverTypeId { get; set; }   // foreign key reference
+        public int CoverTypeId { get; set; }
         [ForeignKey("CategoryId")]
         public CoverType CoverType { get; set; }
+
+
     }
 }
+

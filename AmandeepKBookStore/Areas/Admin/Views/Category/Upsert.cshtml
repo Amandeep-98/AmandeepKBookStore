@@ -1,7 +1,9 @@
 ﻿@model KaurBooks.Models.Category;
 
-@{              Layout = "~/Views/Shared/_Layout.cshtml";
-                var title = "Create Category";
+@{             
+    ViewData["Title"] = "Upsert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Category";
     }
 
 <form method="post">

@@ -1050,4 +1050,10 @@ started working at 11 am today i am feeling sick but will complete the files tod
 
 pushed to github..
 
+8dec 
+stated resolvimng some errors but sadly i failed.....
+
+9 dec 5pm started working through all over its running successfully...
+
+
 

@@ -1,5 +1,6 @@
 ﻿using KaurBooks.DataAccess.Migrations;
 using KaurBooks.Models;
+using KaurBooks.Models.ViewModels;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -18,7 +19,7 @@ namespace AmandeepKBookStore.DataAccess.Data
 
         public DbSet<CoverType> CoverTypes { get; set; }
 
-        // public DbSet<Product> Products { get; set; }          // adding products to DB
+        public DbSet<Product> Products { get; set; }          // adding products to DB
 
     }
 }

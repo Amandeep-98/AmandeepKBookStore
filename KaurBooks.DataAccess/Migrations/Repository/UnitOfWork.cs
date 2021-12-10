@@ -16,31 +16,23 @@ namespace KaurBooks.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;   // the using statement 
 
-        public CategoryRepository Category { get; }
-
         public UnitOfWork(ApplicationDbContext db)   // constructor to use DI and inject in the repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
-
             CoverType = new CoverTypeRepository(_db);
-            
-
+           // Product = new ProductRepository(_db);
 
             SP_Call = new SP_Call(_db);
         }
 
-        
+        public ICategoryRepository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 
-
         public ICoverTypeRepository CoverType { get; private set; }
 
-        
-
-
-        ICategoryRepository IUnitOfWork.Category => throw new NotImplementedException();
+       public IProductRepository Product { get; private set; }
 
 
         public void Dispose()
@@ -55,4 +47,3 @@ namespace KaurBooks.DataAccess.Repository
 
     }
 }
-

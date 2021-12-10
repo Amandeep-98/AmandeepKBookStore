@@ -483,7 +483,7 @@ feeling unwell from last few days so i'm back again to try and run the next part
 01:09 PM Hi there!!  Not feeling that well, but still get back to work as i have to complete this part asap and i started again i made covertype and icovertype files in the migration folder again amnd now my program is running stuccessfully. 
 
 
-20211123181801 coverType db is craeted.....
+ 20211205050728_addCoverTypeToDbcoverType db is craeted.....
 
 
 01:11Pm is the time to step ahead ;)
@@ -499,3 +499,37 @@ feeling unwell from last few days so i'm back again to try and run the next part
 05:22Pm I deleted again and buildoing again the productodb  in the console manager but its not working properly. as its not updateed in the tables. :(
 09:30 PM Made some changes in Areas/admin and in category controller.
 09:50PM again added product to db but its not updating oin the database even now  :(
+
+
+
+3/dec/2021
+
+10 Am Started working on CoverType CRUD.....
+
+
+made all files of covertype folder
+
+0211205050728_addCoverTypeToDbcoverType db is craeted.....
+
+pushed to github
+
+4/dec/2021
+
+started working at 11 am today i am feeling sick but will complete the files today...
+
+
+5/dec/2021 statred working on product crud seems complicated....
+12 pm statred making files smade the basic folder and files in it..
+
+
+1:00 pm and created the 20211210013845_addProductToDb in the migratiopns folder...
+
+
+3pm 20211210024450_addValidationToProductToDb is created on the same day..
+
+
+5pm created the controller and upsert or index view and trying to resolve the errors......
+
+
+pushed to github..
+
